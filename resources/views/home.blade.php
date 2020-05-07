@@ -40,6 +40,13 @@
           font-size: 3.5rem;
         }
       }
+      .footer{
+          padding:20px;
+          margin-top:20px;
+          margin-bottom:20px;
+          background-color:black;
+          color:white;
+      }
     </style>
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.4/examples/carousel/carousel.css" rel="stylesheet">
@@ -49,7 +56,7 @@
     <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="#">Carousel</a>
+    <a class="navbar-brand" href="#">Akash Badole</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -59,10 +66,13 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" >Contact</a>
         </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0">
@@ -227,9 +237,11 @@
 
 
   <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  <footer class="container-fluid footer">
+    <div class="container">
+        <p class="float-right "><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2020 Using Bootstrap, Laravel, Public Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </div>
   </footer>
 </main>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
