@@ -6,4 +6,4 @@
 * Services
 
 
-![Laravel Carousel](https://raw.githubusercontent.com/akashbadole/laravelwebsite/master/akash_badole_laravel.png)
+![Laravel Carousel]https://raw.githubusercontent.com/akashbadole/laravelcarousel/master/akash_badole_laravel.png)
